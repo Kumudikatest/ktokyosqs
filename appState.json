@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e0f2e8d7-95b2-4696-a91c-f63c977a7142": {
+        "id": "e0f2e8d7-95b2-4696-a91c-f63c977a7142",
+        "parent": null,
+        "name": "ktokyosqs.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ktokyosqs.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ktokyosqs"
+        },
+        "triggers": [],
+        "lastUpdated": 1603880500325
+      }
+    },
+    "openFiles": [
+      "e0f2e8d7-95b2-4696-a91c-f63c977a7142"
+    ],
+    "currentFileId": "e0f2e8d7-95b2-4696-a91c-f63c977a7142",
+    "resources": {
+      "sqsksqs": {
+        "name": "sqsksqs",
+        "type": "SQS",
+        "config": {
+          "mode": 0,
+          "existing": false,
+          "name": "ksqs",
+          "url": "https://sqs.ap-northeast-1.amazonaws.com/263248768798/ksqs",
+          "deliveryDelay": 0,
+          "deliveryDelayUnit": "seconds",
+          "useRedrivePolicy": false,
+          "useSSE": false,
+          "kmsCustomerMasterKey": "default",
+          "accountId": "263248768798",
+          "dataKeyReusePeriod": 5,
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": 30,
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": 4,
+          "messageRetentionPeriodUnit": "days",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": 0,
+          "deadLetterQueueName": "",
+          "contentBasedDeduplication": false
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.5",
+    "projectName": "ktokyosqs",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603880546666
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ktokyosqs",
+      "url": "https://github.com/Kumudikatest/ktokyosqs"
+    }
+  }
+}
